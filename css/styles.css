@@ -46,8 +46,7 @@ ul li a{
     flex-wrap: wrap;
 }
 .hotel-texto_frase{
-    display: flex;
-    flex-wrap: wrap;
+    
     color: #fcacac;
 }
 .nav-lugar{
@@ -211,4 +210,52 @@ font-weight: 300;
 }
 .footer-redes_tamaño{
     height: 60px;
+}
+@media (min-width: 320px) and (max-width: 575px)
+{
+    .hotel-presentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hotel-texto{
+        font-size: 200%;
+        color: white;
+        display: flex;
+        margin-left: 100px;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .hotel-texto_frase{
+        color: #fcacac;
+        
+        
+    }
+    .hotel-info{
+        width: auto;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        background-color: #fcacac;
+        margin-bottom: 30px;
+    }
+    .aviso{
+        margin-right: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        height: 1500px;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 500px;
+    }
 }
