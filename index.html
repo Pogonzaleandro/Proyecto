@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/hotel.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--css only-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+            <nav class="navbar navbar-expand-lg bg nav-color">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/hotel.jpeg" alt="" width="100" height="70"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse header__posicion" id="navbarSupportedContent">
+                    <ul class="navbar-nav  header__posicion" >
+                    <li class="nav-item nav-texto">
+                    <a class="nav-link  nav-texto" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item active nav-texto">
+                        <a class="nav-link nav-texto" href="#">Reservas</a>
+                    </li>
+                    <li class="nav-item active nav-texto">
+                        <a class="nav-link nav-texto ">Servicios</a>
+                    </li>
+                    <li class="nav-item active nav-texto">
+                        <a class="nav-link nav-texto">Galeria</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hotel-presentacion">
+        <h1 class="hotel-texto">Lanuin Hotel</h1>
+        <div class="hotel-texto_frase">
+            <p> Hay lugares donde uno se queda y lugares que quedan en uno
+            </p>
+            </div>
+    </section>
+        <section class="hotel-info">
+            <img src="images/hotelafuera.jpg" alt="imagen de hotel afuera"class="hotel-info_imagen">
+            <article class="hotel-info_texto">
+                <h2 class="hotel-texto_titulo">Lanuin Hotel</h2>
+                <p class="hotel-texto_info"> En Hotel Lanuin priorizamos el confort de nuestros huespedes, 
+                    teniendo una de las mejores infraestructuras del lugar y mejor atencion. Contamos con buenos 
+                    servicos y comodidad totalmente ideal para tu viaje o vacaciones  tenemos mas  60 habitaciones 
+                    de las cuales destacan las standard y premium, nuestras instalaciones tienen salones,piletas,confiteria,patio de comidas, gimnasio y baños en cada habitacion para la mayor comodiad de nuestros clientes. Ademas contamos con wifi gratis a disposicion 
+                    de cada cuarto junto con estacionamiento totalmente gratis exclusivo para quienes decidan  
+                    alojarse 
+                    en nuestro hotel</p>
+            </article>
+        </section>
+        <section class="carousel">
+            <div id="carouselExampleControls" class="carousel slide slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/habitacion.jpg" class="d-block w-100 slider-altura" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/habitaciondoble.jpg" class="d-block w-100 slider-altura" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/habitacionnormal.jpg" class="d-block w-100 slider-altura" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="carousel-texto">
+                <h2 class="hotel-texto_titulo">Habitaciones</h2>
+                <p class="hotel-texto_info"> En Lanuin Hotel tenemos las mejores habitaciones, destacan las standard medium y premium, tambien hay habitaciones disponibles para familias, parejas o viajes de amigos o negocios, buscamos 
+                    la mejor satifaccion de quienes nos elijan proporcionando seguridad y confort a cada una de las habitaciones 
+                </p>
+            </div>
+        </section>
+        <section class="hotel-instalaciones">
+            <div id="carouselExampleIndicators" class="carousel slide slider" data-bs-ride="true">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/salaejecutiva.jpg" class="d-block w-100 slider-altura" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/piletaa.jpg" class="d-block w-100 slider-altura" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/patiocomidas.jpg" class="d-block w-100 slider-altura" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+                <article class="hotel-instalaciones_texto"> 
+                    <h2 class="hotel-texto_titulo">Instalaciones</h2>
+                    <p class="hotel-texto_info"> Podes disfrutar de nuestro hotel y de nuestras instalaciones, tenemos sector de 
+                        piletas, salas ejecutivas y de negocios
+                        y tambien confiteria con salon de comidas para que 
+                        nuestros clientes tengan la mejor experiencia en nuestro hotel
+                    </p>
+                </article>
+        </section>
+        <section class="aviso">
+            <article>
+                <img class="aviso-tamaño" src="images/comida.svg" alt="tarjeta de credito">    
+                <p class="aviso-texto">
+                Contamos con patio de comidas
+                </p>
+            </article>
+            <article class="aviso-uno">
+                <img class="aviso-tamaño"  src="images/playa.svg" alt="envios">
+                <p class="aviso-texto"> 
+                    Mejor lugar para disfrutar tus vacaciones
+                </p>
+                </article>
+            <article>
+                <img  class="aviso-tamaño" src="images/pileta.svg" alt="imagen de criptomonedas">
+                <p class="aviso-texto"> 
+                    Con Sector de Piletas y gimnasio
+                </p>
+                </article>
+        </section>
+    </main>
+    <footer>
+        <div  class="footer">
+        <div>
+            <img class="footer-imagen" src="images/hotel.jpeg" alt="foto hotel">
+        </div>
+        <div>
+            <h2>Contactanos</h2>
+            <ul>
+                <li>
+                    Tel: 0800-221-1811
+                </li>
+                <li>
+                    Whatsapp: 1120211809
+                </li>
+                <li>
+                    Email: Reservaslanuin@gmail.com
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Ubicacion</h2>
+            Villa gesell, Calle Falsa 123
+        </div>
+        <div>
+            <h2 class="suscribite">Suscribite</h2>
+            <form class="row m-5 sucribite-boton">
+                <div class="col-auto">
+                <label for="inputPassword2" class="visually-hidden">Password</label>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Email">
+                <div class="boton"> 
+                <button type="button" class="btn btn-dark">Enviar</button>
+                </div>
+            </div>
+            </form>
+        </div>
+        </div>
+        <div class="footer-redes">
+            <a href="https://www.instagram.com/jurotech_/" target="_blank"> 
+            <img src="images/instagram.svg" alt="seguinos en instagram" class="footer-redes_tamaño" >
+            </a>  
+            <a href="https://www.facebook.com/user" target="_blank">
+            <img src="images/facebook.svg" alt="seguinos en facebook" class="footer-redes_tamaño" >
+            </a>
+            <a href="https://www.youtube.com"target="_blank">
+            <img src="images/youtube.svg" alt="seguinos en youtube" class="footer-redes_tamaño">
+            </a> 
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
