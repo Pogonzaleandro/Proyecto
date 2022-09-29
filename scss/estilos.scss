@@ -40,7 +40,7 @@ ul li a{
 
 .hotel-texto{
     font-size: 400%;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -345,15 +345,16 @@ font-weight: 300;
 }
 }
 
-@media (min-width: 320px) and (max-width: 575px)
+@media (min-width: 320px) and (max-width: 1005px)
 {
     .hotel-presentacion{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+        flex-wrap: wrap;
+    
     .hotel-texto{
-        font-size: 200%;
+        font-size: 100px;
         color: white;
         display: flex;
         margin-left: 100px;
@@ -361,11 +362,13 @@ font-weight: 300;
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .hotel-texto_frase{
         color: #fcacac;
-        
+        margin-left: 100px;
         
     }
+}
     .hotel-info{
         width: auto;
         height: 800px;
@@ -492,7 +495,7 @@ font-weight: 300;
         font-size: 15px;
     }
     .hotel-texto{
-        font-size: 250%;
+        font-size: 0%;
         color: white;
         display: flex;
         margin-left: 100px;
@@ -508,6 +511,9 @@ font-weight: 300;
         margin-left: 60px;
         font-size: 100%;
         margin-top: 50px;
+    }
+    .espaciado{
+        margin-top: 400px;
     }
 }
 
